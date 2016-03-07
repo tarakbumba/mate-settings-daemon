@@ -1,0 +1,9 @@
+<schemalist gettext-domain="@GETTEXT_PACKAGE@">
+  <schema id="org.mate.xmouse" path="/org/mate/desktop/xmouse/">
+    <key name="gtk-warps-slider" type="b">
+      <default>true</default>
+      <summary>Warps pointer on mouse click</summary>
+      <description>This setting will ensure GTK+3.x programs behave consistently on mouse click.</description>
+    </key>
+  </schema>
+</schemalist>
