@@ -49,6 +49,7 @@
 #define MOUSE_SCHEMA          "org.mate.peripherals-mouse"
 #define INTERFACE_SCHEMA      "org.mate.interface"
 #define SOUND_SCHEMA          "org.mate.sound"
+#define XMOUSE_SCHEMA         "org.mate.xmouse"
 
 #define FONT_RENDER_SCHEMA    "org.mate.font-rendering"
 #define FONT_ANTIALIASING_KEY "antialiasing"
@@ -206,7 +207,9 @@ static TranslationEntry translations [] = {
 
         { SOUND_SCHEMA, "theme-name",                 "Net/SoundThemeName",            translate_string_string },
         { SOUND_SCHEMA, "event-sounds",               "Net/EnableEventSounds" ,        translate_bool_int },
-        { SOUND_SCHEMA, "input-feedback-sounds",      "Net/EnableInputFeedbackSounds", translate_bool_int }
+        { SOUND_SCHEMA, "input-feedback-sounds",      "Net/EnableInputFeedbackSounds", translate_bool_int },
+		/* Mate always warps pointer on mouse click */
+		{ XMOUSE_SCHEMA,    "gtk-warps-slider",       "Gtk/PrimaryButtonWarpsSlider",  translate_bool_int },
 };
 
 static double
