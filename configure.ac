@@ -537,6 +537,7 @@ data/org.mate.SettingsDaemon.plugins.typing-break.gschema.xml
 data/org.mate.SettingsDaemon.plugins.xrandr.gschema.xml
 data/org.mate.SettingsDaemon.plugins.xrdb.gschema.xml
 data/org.mate.SettingsDaemon.plugins.xsettings.gschema.xml
+data/org.mate.xmouse.gschema.xml
 po/Makefile.in
 ])
 
